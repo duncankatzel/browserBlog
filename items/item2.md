@@ -1,4 +1,4 @@
-Maker Lab I Course
+## Maker Lab I Course ##
 
 In the Maker Lab I course, groups were asked to create 2 different products, with guidelines of certain objectives we had to meet.<br/>
 
