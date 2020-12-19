@@ -4,6 +4,10 @@
     margin-right: 0;
 }
 
+body {
+    background-color: black;
+    color: white;
+}
 section#itemsInner{
     display: flex;
     overflow-x: auto;
