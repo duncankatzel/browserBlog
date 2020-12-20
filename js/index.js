@@ -47,7 +47,7 @@ class Items extends Page{
     render(){
         $.get(`${this.sBase}/items/${this.oItems[this.nCurrentItem].fname}`, (sMarkdown) => {
             $("article#current").append(`
-                <div class="itemImage"><img src="${this.getImageSrc(this.oItems[this.nCurrentItem].specialImage)}" /></div>
+                <div class="itemImage"><img src="${this.getImageSrc(this.oItems[this.nCurrentItem].specialImage)}" alt="me and dog" /></div>
             `);
             $("article#current").append(`
                 <div class="markdownItem">${marked(sMarkdown)}</div>
@@ -58,7 +58,7 @@ class Items extends Page{
             if(n != this.nCurrentItem){
                 $("section#itemsInner").append(`
                 <div class="item">
-                    <a class="itemLink" href="#"><img id="item${n}" src="${this.getImageSrc(this.oItems[n].specialImage)}" /></a>
+                    <a class="itemLink" href="#"><img id="item${n}" src="${this.getImageSrc(this.oItems[n].specialImage)}" alt="Maker Lab 1" /></a>
                     <a id="btnn${n}" class="itemLink btn btn-primary btn-block" href="#">Learn More</a>
                 </div>
                 `);
@@ -113,15 +113,15 @@ class Contact extends Page{
         $("#Contact").append(`
         <form action="${this.sUrlToEmailer}" method="POST">
             <div class="form-group">
-                <label>Name: <input name="name" placeholder="name" class="form-control" required /></label>
+                <label>Name: <input name="name" placeholder="Name" class="form-control" required /></label>
             </div>
             <div class="form-group">
                 <!-- Add required to make the user enter something. Add type="email" to make it have an @ symbol-->
-                <label>Email:<input name="email" placeholder="email" type="email" class="form-control"
+                <label>Email:<input name="email" placeholder="Email" type="email" class="form-control"
                         required /></label>
             </div>
             <div class="form-group">
-                <label>Message:<textarea name="message" placeholder="type your message here" class="form-control"
+                <label>Message:<textarea name="message" placeholder="Type Your Message Here" class="form-control"
                         required></textarea></label>
             </div>
             <button type="submit">Send Message</button>

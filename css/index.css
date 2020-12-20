@@ -4,15 +4,23 @@
     margin-right: 0;
 }
 
-.img{
-    width: 500px;
-    height: 500px;
+.navbar-inverse .navbar-brand {
+    color: cyan;
+}
+
+.navbar-collapse.collapse {
+    background-color: white;
+}
+
+input, button, select, textarea {
+    color: black;
 }
 
 body {
     background-color: black;
     color: white;
 }
+
 section#itemsInner{
     display: flex;
     overflow-x: auto;
