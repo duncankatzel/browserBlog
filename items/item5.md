@@ -6,4 +6,4 @@ We conducted research on students, young families, and creative professionals to
 
 We ended up asking the question: "How might we integrate tudents, businesses, and community into the OneMarket?", to make the OneMarket a place that everyone can enjoy. We decided to create a website that will help our clients persuade businesses to set up inside OneMarket. <br/>
 
-[Here are some snapshots of the website we created for our clients](onemarket.html)
+<a href= "onemarket.html" target= "_blank">Here are some snapshots of the website we created for our clients</a>
